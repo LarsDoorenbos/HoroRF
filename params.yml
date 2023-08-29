@@ -1,0 +1,27 @@
+
+output_path: "./logs/output_${SLURM_JOB_ID}_${NOW}"
+
+dataset_file: datasets.karate
+seed: 15
+num_jobs: 4
+
+# horosvm
+Cexp_min: -3
+Cexp_max: 5
+hyperclasses: yes
+beta: 0
+
+number_of_backup_points: 5
+radius_search: exhaustive # ['random', 'exhaustive', 'subsample']
+subsample_size: 1 # used when radius_search is 'subsample'
+
+criterion: 'gini' # ['gini', 'entropy']
+max_depth: 6
+num_trees: 1
+min_samples_leaf: 1
+min_impurity_decrease: 0.0
+
+class_label: 2
+folds: 2
+stratified: yes
+visualize: yes

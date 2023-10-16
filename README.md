@@ -9,7 +9,7 @@ Hyperbolic space is becoming a popular choice for representing data due to the h
 
 ## Data
 
-The network embeddings can be downloaded from [this repository](https://github.com/hhcho/hyplinear). We will provide the WordNet embeddings soon.
+The network embeddings can be downloaded from [this repository](https://github.com/hhcho/hyplinear). We provide the WordNet embeddings and labels for our experiments [here](https://drive.google.com/drive/folders/14Mmp_jGmLu5jkKpvv_vIR7K-e0Pdl8BV?usp=sharing).
 
 ## Acknowledgements
 - We make use of the [Hyperbolic Hierarchical Clustering](https://github.com/HazyResearch/HypHC) and [Hyperbolic Image Embeddings](https://github.com/leymir/hyperbolic-image-embeddings) repositories.

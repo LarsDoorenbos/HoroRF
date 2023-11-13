@@ -9,7 +9,7 @@ num_jobs: 4
 Cexp_min: -3
 Cexp_max: 5
 hyperclasses: yes
-beta: 0
+beta: 0.9
 
 number_of_backup_points: 5
 radius_search: exhaustive # ['random', 'exhaustive', 'subsample']

@@ -66,7 +66,7 @@ def train_svm(train_x, train_y, C, beta):
         return mu_reg + C * weighted_hinge.sum()
 
     problem = Problem(manifold, cost)
-    optimizer = ConjugateGradient(verbosity=0, beta_rule='FletcherReeves', max_iterations=500, min_step_size=1e-10)
+    optimizer = ConjugateGradient(verbosity=0, beta_rule='FletcherReeves', max_iterations=100, min_step_size=1e-10)
 
     Xopt = optimizer.run(problem).point
     radius = -torch.tensor(Xopt[2] / Xopt[1])[0][0]

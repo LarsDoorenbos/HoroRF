@@ -17,11 +17,15 @@ The network embeddings can be downloaded from [this repository](https://github.c
 ## Citation
 If you find our work relevant to your research, please cite:
 ```
-@article{doorenbos2023hyperbolic,
+@article{
+  doorenbos2024hyperbolic,
   title={Hyperbolic Random Forests},
-  author={Doorenbos, Lars and M{\'a}rquez-Neila, Pablo and Sznitman, Raphael and Mettes, Pascal},
-  journal={arXiv preprint arXiv:2308.13279},
-  year={2023}
+  author={Lars Doorenbos and Pablo M{\'a}rquez Neila and Raphael Sznitman and Pascal Mettes},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2024},
+  url={https://openreview.net/forum?id=pjKcIzvXWR},
+  note={}
 }
 ```
 
